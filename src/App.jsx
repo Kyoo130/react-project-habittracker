@@ -1,11 +1,11 @@
 import './App.css';
 import '@fortawesome/fontawesome-free/js/all.js';
-import Habit from './components/Habit';
+import Habits from "./components/Habits";
 
 function App() {
   return (
    <>
-    <Habit />
+    <Habits />
    </>
   );
 }

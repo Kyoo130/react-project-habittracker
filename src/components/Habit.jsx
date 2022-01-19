@@ -1,10 +1,11 @@
 import React from "react";
 
-const Habit = () => {
+const Habit = (props) => {
+  const {name, count} = props.habit;
   return (
     <li className="habit">
-      <span className="habit-name">Reading</span>
-      <span className="habit-count">8</span>
+      <span className="habit-name">{name}</span>
+      <span className="habit-count">{count}</span>
       <button className="habit-button habit-increase">
         <i className="fas fa-plus-square"></i>
       </button>
